@@ -1,5 +1,8 @@
-html {
-  font-size: 14px;
+:root {
+    --main-color: #292929;
+    --body-color: #1E1E1E;
+    --secondary-color:#D9D9D9;
+    --yellow-highlight: #DCF763;
 }
 
 @media (min-width: 768px) {
@@ -8,8 +11,12 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+*{
+    font-family:'Amiri Quran';
+}
+
+body {
+    background: #1E1E1E;
 }
 
 html {
@@ -19,4 +26,87 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.bg-main-color{
+    background-color:var(--main-color);
+}
+
+.bg-body-color {
+    background-color: var(--body-color);
+}
+
+.color-main {
+    color: var(--main-color);
+}
+
+.color-body {
+    color: var(--body-color);
+}
+
+.color-secondary{
+    color:var(--secondary-color);
+}
+
+.navigation-bar {
+    padding: 10px 15px;
+    position: absolute;
+    top: 30px;
+    left:60px;
+    right:60px;
+    border-radius:10px;
+}
+
+.navigation-link{
+    text-decoration:none;
+    color:white;
+}
+
+.navigation-link:hover{
+    color:white;
+}
+
+.btn-dota{
+    background-color:transparent;
+    border:1px solid var(--secondary-color);
+}
+
+.btn-icon{
+    width:50px;
+}
+
+.hero-section {
+    background-image: url("https://i.ytimg.com/vi/sqVLxphIETs/maxresdefault.jpg");
+    background-repeat:no-repeat;
+    background-color:rgb(0,0,0,0.5);
+    background-blend-mode:darken;
+    background-size:cover;
+    object-fit:cover;
+    height:500px;
+}
+
+.alter-font-family{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.font-bold{
+    font-weight:800;
+    font-size:38px;
+}
+
+.section-label{
+    font-weight:800;
+    font-size:36px;
+    margin-bottom:2px;
+}
+
+.section-sublable{
+    font-size:22px;
+    opacity:0.75;
+}
+
+.album-picture{
+    background-color:var(--secondary-color);
+    height:250px;
+    width:400px;
 }

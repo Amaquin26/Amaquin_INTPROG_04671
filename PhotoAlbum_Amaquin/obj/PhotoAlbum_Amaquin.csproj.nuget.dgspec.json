@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UU630\\Documents\\GitHub\\Amaquin_INTPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj": {}
+    "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UU630\\Documents\\GitHub\\Amaquin_INTPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj": {
+    "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UU630\\Documents\\GitHub\\Amaquin_INTPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj",
         "projectName": "PhotoAlbum_Amaquin",
-        "projectPath": "C:\\Users\\UU630\\Documents\\GitHub\\Amaquin_INTPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj",
-        "packagesPath": "C:\\Users\\UU630\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UU630\\Documents\\GitHub\\Amaquin_INTPROG_04671\\PhotoAlbum_Amaquin\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\PhotoAlbum_Amaquin.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UU630\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

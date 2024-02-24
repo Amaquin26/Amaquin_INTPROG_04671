@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoAlbum_Amaquin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+243c36f4be6fcf454c180586fe7ef9cb88fe44ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9b99799a48afbe4cf3e026dc43ecf0f880ef637")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoAlbum_Amaquin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoAlbum_Amaquin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
