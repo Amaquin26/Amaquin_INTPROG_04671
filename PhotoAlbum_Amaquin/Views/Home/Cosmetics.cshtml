@@ -1,5 +1,87 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿
+<section class="hero-section cosmetics-page-hero text-white d-flex flex-column justify-content-center align-items-end">
+    <div class="px-4 py-2 w-50">
+        <h2 class="font-bold alter-font-family">
+            “DESTROY YOUR PEACEFUL LIFE
+            WITH THIS STUPID GAME.”
+        </h2>
+        <p class="color-secondary opacity-75 section-sublable">
+            - Trust me, I have spent thousands of hours and money.
+        </p>
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <div class="text-center mb-4">
+        <h3 class="section-label">
+            View Albums to Learn
+        </h3>
+        <p class="section-sublable">Please don't blame me</p>
+    </div>
+    <div class="d-flex justify-content-around flex-wrap gap-4">
+        <!-- Make every album picture dynamic -->
+        <div class="album-picture-card">
+            <div class="album-picture">
+                <img src="~/images/dota-heroes.jpg" alt="dota-heroes" />
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between">
+                <h4 class="album-title">Dota 2 Heroes</h4>
+                <a class="btn btn-dota text-white" asp-action="Heroes">View Album</a>
+            </div>
+        </div>
+
+        <div class="album-picture-card">
+            <div class="album-picture">
+                <img src="~/images/dota-items.jpg" alt="dota-items" />
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between">
+                <h4 class="album-title">Dota 2 Items</h4>
+                <a class="btn btn-dota text-white" asp-action="Items">View Album</a>
+            </div>
+        </div>
+
+        <div class="album-picture-card">
+            <div class="album-picture">
+                <img src="~/images/dota-neturals.jpg" alt="dota-neutrals" />
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between">
+                <h4 class="album-title">Dota 2 Neutral Creeps</h4>
+                <a class="btn btn-dota text-white" asp-action="Neutrals">View Album</a>
+            </div>
+        </div>
+
+        <div class="album-picture-card">
+            <div class="album-picture">
+                <img src="~/images/dota-players.jpg" alt="dota-players" />
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between">
+                <h4 class="album-title">Dota 2 Pro Players</h4>
+                <a class="btn btn-dota text-white" asp-action="Players">View Album</a>
+            </div>
+        </div>
+
+        <div class="album-picture-card">
+            <div class="album-picture">
+                <img src="~/images/dota-cosmetics.jpg" alt="dota-cosmetics" />
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-between">
+                <h4 class="album-title">Dota 2 Cosmetics</h4>
+                <a class="btn btn-dota text-white" asp-action="Cosmetics">View Album</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">
+        About this Website
+    </h3>
+    <p class="section-sublable">
+        This website is built for the purpose of  project completion in
+        my university. The design is heavily influenced the games
+        aesthetics and the official page. Please do note that the
+        description have sarcastic vibe and does not describe the actual
+        effect of the to individuals. Please play e-sports game with
+        responsibility.
+    </p>
+</section>

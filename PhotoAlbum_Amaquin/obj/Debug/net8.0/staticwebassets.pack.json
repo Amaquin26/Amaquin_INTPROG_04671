@@ -13,16 +13,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Agility_attribute_symbol.png",
+      "PackagePath": "staticwebassets\\images\\Agility_attribute_symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Intelligence_attribute_symbol.png",
+      "PackagePath": "staticwebassets\\images\\Intelligence_attribute_symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Strength_attribute_symbol.png",
+      "PackagePath": "staticwebassets\\images\\Strength_attribute_symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Universal_attribute_symbol.png",
+      "PackagePath": "staticwebassets\\images\\Universal_attribute_symbol.png"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota 2.png",
       "PackagePath": "staticwebassets\\images\\dota 2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-cosmetics-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-cosmetics-bg.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-cosmetics.jpg",
       "PackagePath": "staticwebassets\\images\\dota-cosmetics.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-heroes-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-heroes-bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-heroes.jpg",
       "PackagePath": "staticwebassets\\images\\dota-heroes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-items-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-items-bg.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-items.jpg",
@@ -33,12 +61,40 @@
       "PackagePath": "staticwebassets\\images\\dota-neturals.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-neutrals-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-neutrals-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-players-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-players-bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-players.jpg",
       "PackagePath": "staticwebassets\\images\\dota-players.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gaben.jpg",
       "PackagePath": "staticwebassets\\images\\gaben.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\drow-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\agility\\drow-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\meepo-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\heroes\\agility\\meepo-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\morphling-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\heroes\\agility\\morphling-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\sniper-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\heroes\\agility\\sniper-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\weaver-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\heroes\\agility\\weaver-hero.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\js\\site.js",
