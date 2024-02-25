@@ -18,10 +18,37 @@ namespace PhotoAlbum_Amaquin.Controllers
             return View();
         }
 
+        public IActionResult Heroes()
+        {
+            return View();
+        }
+
+        public IActionResult Items()
+        {
+            return View();
+        }
+
+        public IActionResult Neutrals()
+        {
+            return View();
+        }
+
+        public IActionResult Players()
+        {
+            return View();
+        }
+
+        public IActionResult Cosmetics()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
         }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

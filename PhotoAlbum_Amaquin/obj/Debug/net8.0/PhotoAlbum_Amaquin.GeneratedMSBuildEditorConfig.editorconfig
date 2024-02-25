@@ -18,8 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\PC\Documents\GitHub\Amaquin_INTROPROG_04671\PhotoAlbum_Amaquin
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Cosmetics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3NtZXRpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Heroes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZXJvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Neutrals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXV0cmFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Players.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGF5ZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/Documents/GitHub/Amaquin_INTROPROG_04671/PhotoAlbum_Amaquin/Views/Home/Privacy.cshtml]

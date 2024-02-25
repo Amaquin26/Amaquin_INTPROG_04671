@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota 2.png",
+      "PackagePath": "staticwebassets\\images\\dota 2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-cosmetics.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-cosmetics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-heroes.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-heroes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-items.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-items.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-neturals.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-neturals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota-players.jpg",
+      "PackagePath": "staticwebassets\\images\\dota-players.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gaben.jpg",
+      "PackagePath": "staticwebassets\\images\\gaben.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
