@@ -1,4 +1,5 @@
-﻿
+﻿@model Dictionary<string,List<Items>>
+
 <section class="hero-section items-page-hero text-white d-flex flex-column justify-content-center align-items-end">
     <div class="px-4 py-2 w-50">
         <h2 class="font-bold alter-font-family">
@@ -14,74 +15,137 @@
 <section class="container text-white my-5">
     <div class="text-center mb-4">
         <h3 class="section-label">
-            View Albums to Learn
+            Welcome to Items Album
         </h3>
-        <p class="section-sublable">Please don't blame me</p>
-    </div>
-    <div class="d-flex justify-content-around flex-wrap gap-4">
-        <!-- Make every album picture dynamic -->
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-heroes.jpg" alt="dota-heroes" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Heroes</h4>
-                <a class="btn btn-dota text-white" asp-action="Heroes">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-items.jpg" alt="dota-items" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Items</h4>
-                <a class="btn btn-dota text-white" asp-action="Items">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-neturals.jpg" alt="dota-neutrals" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Neutral Creeps</h4>
-                <a class="btn btn-dota text-white" asp-action="Neutrals">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-players.jpg" alt="dota-players" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Pro Players</h4>
-                <a class="btn btn-dota text-white" asp-action="Players">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-cosmetics.jpg" alt="dota-cosmetics" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Cosmetics</h4>
-                <a class="btn btn-dota text-white" asp-action="Cosmetics">View Album</a>
-            </div>
-        </div>
+        <p class="section-sublable text-start">
+            This album showcases 20 items out of 200+ you can buy but you only have 6 active slots.
+            Each item is unique and can be obtained by earning gold which will make your hero much stronger.
+            It is an advantage to build items earlier than your opponent. Many items requires many components and 
+            most Dota 2 veterans memorized the combination by heart.
+        </p>
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">
-        About this Website
-    </h3>
-    <p class="section-sublable">
-        This website is built for the purpose of  project completion in
-        my university. The design is heavily influenced the games
-        aesthetics and the official page. Please do note that the
-        description have sarcastic vibe and does not describe the actual
-        effect of the to individuals. Please play e-sports game with
-        responsibility.
+    <h3 class="section-label text-center">Laning Phase Items</h3>
+    <p class="section-sublable text-start mb-4">
+       Lorem lorem lorem
     </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var item in Model.GetValueOrDefault("Laning_Phase", new List<Items>()))
+        {
+            <div class="dota-item-card">
+                <div class="d-flex gap-2 px-1 py-2">
+                    <div class="item-image w-25">
+                        <img src="@Url.Content(item.ImageSource)" alt=@item.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <h5 class="text-bolder text-md my-0">@item.Name</h5>
+                        <div class="text-md">
+                            <img src="~/images/Gold_symbol.png" alt="gold" />
+                            <span>@item.GoldCost</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @item.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">Armor/Health Items</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var item in Model.GetValueOrDefault("Armor_Health", new List<Items>()))
+        {
+            <div class="dota-item-card">
+                <div class="d-flex gap-2 px-1 py-2">
+                    <div class="item-image w-25">
+                        <img src="@Url.Content(item.ImageSource)" alt=@item.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <h5 class="text-bolder text-md my-0">@item.Name</h5>
+                        <div class="text-md">
+                            <img src="~/images/Gold_symbol.png" alt="gold" />
+                            <span>@item.GoldCost</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @item.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">Evasion/Invisibility Items</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var item in Model.GetValueOrDefault("Evasion_Invisibility", new List<Items>()))
+        {
+            <div class="dota-item-card">
+                <div class="d-flex gap-2 px-1 py-2">
+                    <div class="item-image w-25">
+                        <img src="@Url.Content(item.ImageSource)" alt=@item.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <h5 class="text-bolder text-md my-0">@item.Name</h5>
+                        <div class="text-md">
+                            <img src="~/images/Gold_symbol.png" alt="gold" />
+                            <span>@item.GoldCost</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @item.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">Resistance Items</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var item in Model.GetValueOrDefault("Resistance", new List<Items>()))
+        {
+            <div class="dota-item-card">
+                <div class="d-flex gap-2 px-1 py-2">
+                    <div class="item-image w-25">
+                        <img src="@Url.Content(item.ImageSource)" alt=@item.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <h5 class="text-bolder text-md my-0">@item.Name</h5>
+                        <div class="text-md">
+                            <img src="~/images/Gold_symbol.png" alt="gold" />
+                            <span>@item.GoldCost</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @item.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
 </section>

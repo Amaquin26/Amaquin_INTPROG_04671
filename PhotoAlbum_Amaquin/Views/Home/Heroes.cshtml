@@ -1,4 +1,5 @@
-﻿
+﻿@model Dictionary<string,List<Heroes>>
+
 <section class="hero-section heroes-page-hero text-white d-flex flex-column justify-content-center align-items-end">
     <div class="px-4 py-2 w-50">
         <h2 class="font-bold alter-font-family">
@@ -38,153 +39,36 @@
         that these type of heroes need a strong foundation at the start to get stronger in the late game.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
-
-        <div class="dota-hero-card">
-            <h4 class="mb-3 text-center text-bolder text-lg">Sniper</h4>
-            <div class="d-flex gap-3">
-                <div class="hero-image">
-                    <img src="~/images/heroes/agility/sniper-hero.jpg" alt="sniper"/>
+        @foreach (var hero in Model.GetValueOrDefault("Agility", new List<Heroes>()))
+        {
+            <div class="dota-hero-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
+                <div class="d-flex gap-3">
+                    <div class="hero-image">
+                        <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">@hero.BaseAttack</span></p>
+                        <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">@hero.BaseArmor</span></p>
+                        <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">@hero.BaseMovespeed</span></p>
+                        <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">@hero.AttackType</span></p>
+                    </div>
                 </div>
-                <div class="flex-grow-1">
-                    <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">43</span></p>
-                    <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">3.5</span></p>
-                    <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">285</span></p>
-                    <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">Range</span></p>
+                <div class="mt-0">
+                    <div class="d-flex health-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Health}/{hero.Health}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.HealthRegen.ToString("F1")}")</p>
+                    </div>
+                    <div class="d-flex mana-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Mana}/{hero.Mana}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
+                    </div>
                 </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                    @hero.Description
+                </p>
             </div>
-            <div class="mt-0">
-                <div class="d-flex health-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">538/538</p>
-                    <p class="text-end flex-grow-1 text-small-75">+2.2</p>
-                </div>
-                <div class="d-flex mana-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">255/255</p>
-                    <p class="text-end flex-grow-1 text-small-75">+0.8</p>
-                </div>
-            </div>
-            <p class="opacity-75">
-                Sniper is arguably the most recommended hero for beginners. It can
-                attack enemies in extremely long distance.
-            </p>
-        </div>
-
-        <div class="dota-hero-card">
-            <h4 class="mb-3 text-center text-bolder text-lg">Drow Ranger</h4>
-            <div class="d-flex gap-3">
-                <div class="hero-image">
-                    <img src="~/images/heroes/agility/drow-hero.png" alt="drow"/>
-                </div>
-                <div class="flex-grow-1">
-                    <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">52</span></p>
-                    <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">3.3</span></p>
-                    <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">300</span></p>
-                    <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">Range</span></p>
-                </div>
-            </div>
-            <div class="mt-0">
-                <div class="d-flex health-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">472/472</p>
-                    <p class="text-end flex-grow-1 text-small-75">+1.9</p>
-                </div>
-                <div class="d-flex mana-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">255/255</p>
-                    <p class="text-end flex-grow-1 text-small-75">+0.8</p>
-                </div>
-            </div>
-            <p class="opacity-75">
-                Drow Ranger is a great range hero dealing high damage and slows enemies.
-                Great for beginners to learn.
-            </p>
-        </div>
-
-        <div class="dota-hero-card">
-            <h4 class="mb-3 text-center text-bolder text-lg">Weaver</h4>
-            <div class="d-flex gap-3">
-                <div class="hero-image">
-                    <img src="~/images/heroes/agility/weaver-hero.jpg" alt="weaver"/>
-                </div>
-                <div class="flex-grow-1">
-                    <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">57</span></p>
-                    <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">3.8</span></p>
-                    <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">275</span></p>
-                    <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">Range</span></p>
-                </div>
-            </div>
-            <div class="mt-0">
-                <div class="d-flex health-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">472/472</p>
-                    <p class="text-end flex-grow-1 text-small-75">+2.8</p>
-                </div>
-                <div class="d-flex mana-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">315/315</p>
-                    <p class="text-end flex-grow-1 text-small-75">+1.5</p>
-                </div>
-            </div>
-            <p class="opacity-75">
-                Weaver is a range hero that can go invisible to chase and attack enemies.
-                This is a more advance hero since it may require you to be more efficient with
-                its spell.
-            </p>
-        </div>
-
-        <div class="dota-hero-card">
-            <h4 class="mb-3 text-center text-bolder text-lg">Morphling</h4>
-            <div class="d-flex gap-3">
-                <div class="hero-image">
-                    <img src="~/images/heroes/agility/morphling-hero.jpg" alt="morphling"/>
-                </div>
-                <div class="flex-grow-1">
-                    <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">37</span></p>
-                    <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">2.0</span></p>
-                    <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">285</span></p>
-                    <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">Range</span></p>
-                </div>
-            </div>
-            <div class="mt-0">
-                <div class="d-flex health-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">626/626</p>
-                    <p class="text-end flex-grow-1 text-small-75">+2.8</p>
-                </div>
-                <div class="d-flex mana-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">303/303</p>
-                    <p class="text-end flex-grow-1 text-small-75">+1.5</p>
-                </div>
-            </div>
-            <p class="opacity-75">
-                Morphling can deal extremely high damage and can shift attributes and is challenging
-                even for advance players. Morphling is almost unstoppable if played correctly.
-            </p>
-        </div>
-
-        <div class="dota-hero-card">
-            <h4 class="mb-3 text-center text-bolder text-lg">Meepo</h4>
-            <div class="d-flex gap-3">
-                <div class="hero-image">
-                    <img src="~/images/heroes/agility/meepo-hero.jpg" alt="meepo"/>
-                </div>
-                <div class="flex-grow-1">
-                    <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">49</span></p>
-                    <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">6.8</span></p>
-                    <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">330</span></p>
-                    <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">Melee</span></p>
-                </div>
-            </div>
-            <div class="mt-0">
-                <div class="d-flex health-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">648/648</p>
-                    <p class="text-end flex-grow-1 text-small-75">+2.7</p>
-                </div>
-                <div class="d-flex mana-bar my-1 px-2">
-                    <p class="text-end flex-grow-1 text-bolder">291/291</p>
-                    <p class="text-end flex-grow-1 text-small-75">+1.2</p>
-                </div>
-            </div>
-            <p class="opacity-75">
-                Did I say that you can only play one hero in a match? Well, not with this
-                hero (not exactly). You will control up to 5 instances of this hero. Sounds
-                cool but every meepo will die if one of them die. Extremely difficult to master.
-            </p>
-        </div>
+        }
     </div>
 </section>
 
@@ -200,6 +84,38 @@
         used for due to their nature of having more health. Most of these heroes are played as offlane
         supporting early skirmishes and initiations.
     </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var hero in Model.GetValueOrDefault("Strength", new List<Heroes>()))
+        {
+            <div class="dota-hero-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
+                <div class="d-flex gap-3">
+                    <div class="hero-image">
+                        <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">@hero.BaseAttack</span></p>
+                        <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">@hero.BaseArmor</span></p>
+                        <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">@hero.BaseMovespeed</span></p>
+                        <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">@hero.AttackType</span></p>
+                    </div>
+                </div>
+                <div class="mt-0">
+                    <div class="d-flex health-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Health}/{hero.Health}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.HealthRegen.ToString("F1")}")</p>
+                    </div>
+                    <div class="d-flex mana-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Mana}/{hero.Mana}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
+                    </div>
+                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                    @hero.Description
+                </p>
+            </div>
+        }
+    </div>
 </section>
 
 <section class="container text-white my-5">
@@ -213,6 +129,38 @@
         Intelligence heroes mostly relies on their spells. Some of them are played as support and may
         even be played as mid. They have extremely high spell damage output and most may lack in attack damage.
     </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var hero in Model.GetValueOrDefault("Intelligence", new List<Heroes>()))
+        {
+            <div class="dota-hero-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
+                <div class="d-flex gap-3">
+                    <div class="hero-image">
+                        <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">@hero.BaseAttack</span></p>
+                        <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">@hero.BaseArmor</span></p>
+                        <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">@hero.BaseMovespeed</span></p>
+                        <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">@hero.AttackType</span></p>
+                    </div>
+                </div>
+                <div class="mt-0">
+                    <div class="d-flex health-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Health}/{hero.Health}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.HealthRegen.ToString("F1")}")</p>
+                    </div>
+                    <div class="d-flex mana-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Mana}/{hero.Mana}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
+                    </div>
+                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                    @hero.Description
+                </p>
+            </div>
+        }
+    </div>
 </section>
 
 <section class="container text-white my-5">
@@ -227,4 +175,36 @@
         They tend to have more attack damage. They are also very versatile and can be played almost any role. Exprienced
         player will mostly use these heroes as a nuker that deal high damage output.
     </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var hero in Model.GetValueOrDefault("Universal", new List<Heroes>()))
+        {
+            <div class="dota-hero-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
+                <div class="d-flex gap-3">
+                    <div class="hero-image">
+                        <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
+                    </div>
+                    <div class="flex-grow-1">
+                        <p class="text-md mb-0">Base Attack: <span class="text-bolder text-sm">@hero.BaseAttack</span></p>
+                        <p class="text-md mb-0">Base Armor: <span class="text-bolder text-sm">@hero.BaseArmor</span></p>
+                        <p class="text-md mb-0">Base Movespeed: <span class="text-bolder text-sm">@hero.BaseMovespeed</span></p>
+                        <p class="text-md mb-0">Atack Type: <span class="text-bolder text-sm">@hero.AttackType</span></p>
+                    </div>
+                </div>
+                <div class="mt-0">
+                    <div class="d-flex health-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Health}/{hero.Health}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.HealthRegen.ToString("F1")}")</p>
+                    </div>
+                    <div class="d-flex mana-bar my-1 px-2">
+                        <p class="text-end flex-grow-1 text-bolder">@Html.Raw($"{hero.Mana}/{hero.Mana}")</p>
+                        <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
+                    </div>
+                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                    @hero.Description
+                </p>
+            </div>
+        }
+    </div>
 </section>

@@ -1,4 +1,5 @@
-﻿
+﻿@model Dictionary<string,List<Players>>
+
 <section class="hero-section players-page-hero text-white d-flex flex-column justify-content-center align-items-end">
     <div class="px-4 py-2 w-50">
         <h2 class="font-bold alter-font-family">
@@ -12,76 +13,113 @@
 </section>
 
 <section class="container text-white my-5">
-    <div class="text-center mb-4">
-        <h3 class="section-label">
-            View Albums to Learn
-        </h3>
-        <p class="section-sublable">Please don't blame me</p>
-    </div>
-    <div class="d-flex justify-content-around flex-wrap gap-4">
-        <!-- Make every album picture dynamic -->
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-heroes.jpg" alt="dota-heroes" />
+    <h3 class="section-label text-center">2023 TI Champions</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach(var player in Model.GetValueOrDefault("TI",new List<Players>()))
+        {
+            <div class="dota-player-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@player.Name</h4>
+                <div class="player-image">
+                    <img src="@Url.Content(player.ImageSource)" alt=@player.Name />
+                </div>
+                <div class="p-2">
+                    <p class="text-md mb-0">Real Name: <span class="text-bolder text-sm">@player.RealName</span></p>
+                    <p class="text-md mb-0">Team Role: <span class="text-bolder text-sm">@player.TeamRole</span></p>
+                    <p class="text-md mb-0">Approx Winning: <span class="text-bolder text-sm">@player.ApproxWinning</span></p>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @player.Description
+                    </p>
+                </div>
             </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Heroes</h4>
-                <a class="btn btn-dota text-white" asp-action="Heroes">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-items.jpg" alt="dota-items" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Items</h4>
-                <a class="btn btn-dota text-white" asp-action="Items">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-neturals.jpg" alt="dota-neutrals" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Neutral Creeps</h4>
-                <a class="btn btn-dota text-white" asp-action="Neutrals">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-players.jpg" alt="dota-players" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Pro Players</h4>
-                <a class="btn btn-dota text-white" asp-action="Players">View Album</a>
-            </div>
-        </div>
-
-        <div class="album-picture-card">
-            <div class="album-picture">
-                <img src="~/images/dota-cosmetics.jpg" alt="dota-cosmetics" />
-            </div>
-            <div class="p-2 d-flex align-items-center justify-content-between">
-                <h4 class="album-title">Dota 2 Cosmetics</h4>
-                <a class="btn btn-dota text-white" asp-action="Cosmetics">View Album</a>
-            </div>
-        </div>
+        }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">
-        About this Website
-    </h3>
-    <p class="section-sublable">
-        This website is built for the purpose of  project completion in
-        my university. The design is heavily influenced the games
-        aesthetics and the official page. Please do note that the
-        description have sarcastic vibe and does not describe the actual
-        effect of the to individuals. Please play e-sports game with
-        responsibility.
+    <h3 class="section-label text-center">Filipino Pro Players</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
     </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var player in Model.GetValueOrDefault("Filipino", new List<Players>()))
+        {
+            <div class="dota-player-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@player.Name</h4>
+                <div class="player-image">
+                    <img src="@Url.Content(player.ImageSource)" alt=@player.Name />
+                </div>
+                <div class="p-2">
+                    <p class="text-md mb-0">Real Name: <span class="text-bolder text-sm">@player.RealName</span></p>
+                    <p class="text-md mb-0">Team Role: <span class="text-bolder text-sm">@player.TeamRole</span></p>
+                    <p class="text-md mb-0">Approx Winning: <span class="text-bolder text-sm">@player.ApproxWinning</span></p>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @player.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">Chinese Pro Players</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var player in Model.GetValueOrDefault("Chinese", new List<Players>()))
+        {
+            <div class="dota-player-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@player.Name</h4>
+                <div class="player-image">
+                    <img src="@Url.Content(player.ImageSource)" alt=@player.Name />
+                </div>
+                <div class="p-2">
+                    <p class="text-md mb-0">Real Name: <span class="text-bolder text-sm">@player.RealName</span></p>
+                    <p class="text-md mb-0">Team Role: <span class="text-bolder text-sm">@player.TeamRole</span></p>
+                    <p class="text-md mb-0">Approx Winning: <span class="text-bolder text-sm">@player.ApproxWinning</span></p>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @player.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="container text-white my-5">
+    <h3 class="section-label text-center">Banned Pro Players</h3>
+    <p class="section-sublable text-start mb-4">
+        Lorem lorem lorem
+    </p>
+    <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
+        @foreach (var player in Model.GetValueOrDefault("Banned", new List<Players>()))
+        {
+            <div class="dota-player-card">
+                <h4 class="mb-3 text-center text-bolder text-lg">@player.Name</h4>
+                <div class="player-image">
+                    <img src="@Url.Content(player.ImageSource)" alt=@player.Name />
+                </div>
+                <div class="p-2">
+                    <p class="text-md mb-0">Real Name: <span class="text-bolder text-sm">@player.RealName</span></p>
+                    <p class="text-md mb-0">Team Role: <span class="text-bolder text-sm">@player.TeamRole</span></p>
+                    <p class="text-md mb-0">Approx Winning: <span class="text-bolder text-sm">@player.ApproxWinning</span></p>
+                </div>
+                <div class="p-1">
+                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                        @player.Description
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
 </section>

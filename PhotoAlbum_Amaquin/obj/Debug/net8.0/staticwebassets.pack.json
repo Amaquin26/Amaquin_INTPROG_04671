@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\Agility_attribute_symbol.png"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Gold_symbol.png",
+      "PackagePath": "staticwebassets\\images\\Gold_symbol.png"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Intelligence_attribute_symbol.png",
       "PackagePath": "staticwebassets\\images\\Intelligence_attribute_symbol.png"
     },
@@ -27,6 +31,86 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\Universal_attribute_symbol.png",
       "PackagePath": "staticwebassets\\images\\Universal_attribute_symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\arcanas\\bladeform_legacy.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\arcanas\\bladeform_legacy.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\arcanas\\demon_eater.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\arcanas\\demon_eater.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\arcanas\\great_sages_reckoning.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\arcanas\\great_sages_reckoning.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\arcanas\\manifold_paradox.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\arcanas\\manifold_paradox.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\arcanas\\tempest_helm_of_thundergod.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\arcanas\\tempest_helm_of_thundergod.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\expensive\\axe_of_phractos.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\expensive\\axe_of_phractos.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\expensive\\dragon_claw.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\expensive\\dragon_claw.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\expensive\\gold_silent_wake.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\expensive\\gold_silent_wake.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\expensive\\jade_baby_roshan.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\expensive\\jade_baby_roshan.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\expensive\\shattered_greatsword.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\expensive\\shattered_greatsword.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\immortals\\aspect_of_oscilla.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\immortals\\aspect_of_oscilla.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\immortals\\claws_of_nuranu.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\immortals\\claws_of_nuranu.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\immortals\\draca_mane.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\immortals\\draca_mane.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\immortals\\emerald_subjugation.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\immortals\\emerald_subjugation.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\immortals\\vigil_odyssey.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\immortals\\vigil_odyssey.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\personas\\acolyte_of_the_lost_artsr.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\personas\\acolyte_of_the_lost_artsr.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\personas\\conduit_of_blueheart.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\personas\\conduit_of_blueheart.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\personas\\davion_of_dragon_hold.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\personas\\davion_of_dragon_hold.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\personas\\disciples_path.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\personas\\disciples_path.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\cosmetics\\personas\\the_toy_butcher.png",
+      "PackagePath": "staticwebassets\\images\\cosmetics\\personas\\the_toy_butcher.png"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\dota 2.png",
@@ -95,6 +179,306 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\weaver-hero.jpg",
       "PackagePath": "staticwebassets\\images\\heroes\\agility\\weaver-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\intelligence\\cystal_maiden-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\intelligence\\cystal_maiden-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\intelligence\\disruptor-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\intelligence\\disruptor-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\intelligence\\jakiro-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\intelligence\\jakiro-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\intelligence\\puck-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\intelligence\\puck-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\intelligence\\tinker-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\intelligence\\tinker-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\strength\\alchemist-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\strength\\alchemist-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\strength\\dragon_knight-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\strength\\dragon_knight-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\strength\\primal_beast-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\strength\\primal_beast-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\strength\\tusk-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\strength\\tusk-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\strength\\wraith_king-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\strength\\wraith_king-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\chen-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\universal\\chen-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\dazzle-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\universal\\dazzle-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\invoker-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\universal\\invoker-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\mirana-hero.png",
+      "PackagePath": "staticwebassets\\images\\heroes\\universal\\mirana-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\timbersaw-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\heroes\\universal\\timbersaw-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Assault_Cuirass.png",
+      "PackagePath": "staticwebassets\\images\\items\\armor_health\\Assault_Cuirass.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Blade_Mail.png",
+      "PackagePath": "staticwebassets\\images\\items\\armor_health\\Blade_Mail.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Heart_of_Tarrasque.png",
+      "PackagePath": "staticwebassets\\images\\items\\armor_health\\Heart_of_Tarrasque.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Shivas_Guard.png",
+      "PackagePath": "staticwebassets\\images\\items\\armor_health\\Shivas_Guard.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Vanguard.png",
+      "PackagePath": "staticwebassets\\images\\items\\armor_health\\Vanguard.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\evasion_invisibility\\Butterfly.png",
+      "PackagePath": "staticwebassets\\images\\items\\evasion_invisibility\\Butterfly.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\evasion_invisibility\\Glimmer_Cape.png",
+      "PackagePath": "staticwebassets\\images\\items\\evasion_invisibility\\Glimmer_Cape.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\evasion_invisibility\\Heavens_Halberd.png",
+      "PackagePath": "staticwebassets\\images\\items\\evasion_invisibility\\Heavens_Halberd.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\evasion_invisibility\\Radiance.png",
+      "PackagePath": "staticwebassets\\images\\items\\evasion_invisibility\\Radiance.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\evasion_invisibility\\Shadow_Blade.png",
+      "PackagePath": "staticwebassets\\images\\items\\evasion_invisibility\\Shadow_Blade.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\laning_phase\\clarity.png",
+      "PackagePath": "staticwebassets\\images\\items\\laning_phase\\clarity.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\laning_phase\\healing-salve.png",
+      "PackagePath": "staticwebassets\\images\\items\\laning_phase\\healing-salve.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\laning_phase\\iron-branch.png",
+      "PackagePath": "staticwebassets\\images\\items\\laning_phase\\iron-branch.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\laning_phase\\magic-stick.png",
+      "PackagePath": "staticwebassets\\images\\items\\laning_phase\\magic-stick.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\laning_phase\\tango.png",
+      "PackagePath": "staticwebassets\\images\\items\\laning_phase\\tango.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\resistance\\Black_King_Bar.png",
+      "PackagePath": "staticwebassets\\images\\items\\resistance\\Black_King_Bar.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\resistance\\Eternal_Shroud.png",
+      "PackagePath": "staticwebassets\\images\\items\\resistance\\Eternal_Shroud.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\resistance\\Mage_Slayer.png",
+      "PackagePath": "staticwebassets\\images\\items\\resistance\\Mage_Slayer.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\resistance\\Pipe_of_Insight.png",
+      "PackagePath": "staticwebassets\\images\\items\\resistance\\Pipe_of_Insight.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\resistance\\Sange.png",
+      "PackagePath": "staticwebassets\\images\\items\\resistance\\Sange.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\ancient\\Ancient_black_dragon.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\ancient\\Ancient_black_dragon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\ancient\\Ancient_granite_golem.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\ancient\\Ancient_granite_golem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\ancient\\Ancient_prowler_shaman.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\ancient\\Ancient_prowler_shaman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\ancient\\Ancient_rumblehide.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\ancient\\Ancient_rumblehide.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\ancient\\Ancient_thunderhide.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\ancient\\Ancient_thunderhide.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\large\\Centaur_conqueror.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\large\\Centaur_conqueror.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\large\\Dark_troll_summoner.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\large\\Dark_troll_summoner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\large\\Hellbear_smasher.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\large\\Hellbear_smasher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\large\\Satyr_tormenter.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\large\\Satyr_tormenter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\large\\Wildwing_ripper.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\large\\Wildwing_ripper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\medium\\Centaur_courser.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\medium\\Centaur_courser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\medium\\Giant_wolf.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\medium\\Giant_wolf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\medium\\Mud_golem.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\medium\\Mud_golem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\medium\\Ogre_frostmage.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\medium\\Ogre_frostmage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\medium\\Satyr_mindstealer.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\medium\\Satyr_mindstealer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\small\\Fell_spirit.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\small\\Fell_spirit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\small\\Harpy_scout.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\small\\Harpy_scout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\small\\Hill_troll_priest.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\small\\Hill_troll_priest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\small\\Kobold_soldier.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\small\\Kobold_soldier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\neutrals\\small\\Vhoul_assassin.jpg",
+      "PackagePath": "staticwebassets\\images\\neutrals\\small\\Vhoul_assassin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Banned\\MKS.png",
+      "PackagePath": "staticwebassets\\images\\players\\Banned\\MKS.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Banned\\Mercader.png",
+      "PackagePath": "staticwebassets\\images\\players\\Banned\\Mercader.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Banned\\Nevermine.png",
+      "PackagePath": "staticwebassets\\images\\players\\Banned\\Nevermine.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Banned\\Rayy.png",
+      "PackagePath": "staticwebassets\\images\\players\\Banned\\Rayy.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Banned\\SonGoku.png",
+      "PackagePath": "staticwebassets\\images\\players\\Banned\\SonGoku.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Chinese\\Ame.jpg",
+      "PackagePath": "staticwebassets\\images\\players\\Chinese\\Ame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Chinese\\Faith.jpg",
+      "PackagePath": "staticwebassets\\images\\players\\Chinese\\Faith.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Chinese\\Monet.jpg",
+      "PackagePath": "staticwebassets\\images\\players\\Chinese\\Monet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Chinese\\Old_chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\players\\Chinese\\Old_chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Chinese\\Paparazi.png",
+      "PackagePath": "staticwebassets\\images\\players\\Chinese\\Paparazi.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Filipino\\Armel.png",
+      "PackagePath": "staticwebassets\\images\\players\\Filipino\\Armel.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Filipino\\Bob.png",
+      "PackagePath": "staticwebassets\\images\\players\\Filipino\\Bob.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Filipino\\Kuku.png",
+      "PackagePath": "staticwebassets\\images\\players\\Filipino\\Kuku.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Filipino\\Natsumi.png",
+      "PackagePath": "staticwebassets\\images\\players\\Filipino\\Natsumi.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\Filipino\\Tims.png",
+      "PackagePath": "staticwebassets\\images\\players\\Filipino\\Tims.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\TI\\Collapse.png",
+      "PackagePath": "staticwebassets\\images\\players\\TI\\Collapse.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\TI\\Larl.png",
+      "PackagePath": "staticwebassets\\images\\players\\TI\\Larl.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\TI\\Miposhka.png",
+      "PackagePath": "staticwebassets\\images\\players\\TI\\Miposhka.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\TI\\Mira.png",
+      "PackagePath": "staticwebassets\\images\\players\\TI\\Mira.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\players\\TI\\Yatoro.png",
+      "PackagePath": "staticwebassets\\images\\players\\TI\\Yatoro.png"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\js\\site.js",
