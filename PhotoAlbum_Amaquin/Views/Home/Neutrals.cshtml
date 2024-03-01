@@ -1,136 +1,157 @@
 ﻿@model Dictionary<string,List<Neutrals>>
 
 <section class="hero-section neutrals-page-hero text-white d-flex flex-column justify-content-center align-items-end">
-    <div class="px-4 py-2 w-50">
-        <h2 class="font-bold alter-font-family">
-            “DESTROY YOUR PEACEFUL LIFE
-            WITH THIS STUPID GAME.”
-        </h2>
-        <p class="color-secondary opacity-75 section-sublable">
-            - Trust me, I have spent thousands of hours and money.
+   
+</section>
+
+<section class="container text-white my-5">
+    <div class="text-center mb-4">
+        <h3 class="section-label">
+            Welcome to Neutral Creeps Album
+        </h3>
+        <p class="section-sublable text-start">
+            Lane creeps is always the best source for XP and gold bounty. However, you might be
+            forced to farm in neutral camps because you suck at laning or your team keep stealing
+            your creeps. Another reason why you are in neutral creeps is might be you planned to 
+            farm 30 minutes straight without helping your team to win the game. You might also
+            blame your team for losing the match because no one bought wards for your camp.
         </p>
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Small Neutral Creeps</h3>
-    <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+    <div class="d-flex align-items-center justify-content-center gap-3">
+        <h3 class="section-label">Small Neutral Creeps</h3>
+        <div>
+            <img src="~/images/icons/Nemestice_Crystal_Kobold_minimap_icon.png" width="50" />
+        </div>   
+    </div>
+    <p class="section-sublable text-start mb-4 text-center">
+        This is an easy camp but hero may struggle defeating this neutral creeps when they are below level 4.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach(var neutral in Model.GetValueOrDefault("Small", new List<Neutrals>()))
         {
             <div class="dota-neutral-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@neutral.Name</h4>
-                <div class="d-flex gap-3">
-                    <div class="neutral-image w-50">
+                <div class="d-flex gap-3 flex-lg-row flex-column">
+                    <div class="neutral-image">
                         <img src="@Url.Content(neutral.ImageSource)" alt=@neutral.Name/>
                     </div>
-                    <div class="w-50">
+                    <div class="neutral-stats p-1">
                         <p class="text-md mb-0">Health: <span class="text-bolder text-sm">@neutral.Health</span></p>
                         <p class="text-md mb-0">Health Regen: <span class="text-bolder text-sm">@neutral.HealthRegen</span></p>
                         <p class="text-md mb-0">Gold Bounty: <span class="text-bolder text-sm">@neutral.Gold</span></p>
                         <p class="text-md mb-0">XP: <span class="text-bolder text-sm">@neutral.XP</span></p>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @neutral.Description
-                    </p>
-                </div>
+                <p class="my-2 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @neutral.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Medium Neutral Creeps</h3>
-    <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+    <div class="d-flex align-items-center justify-content-center gap-3">
+        <h3 class="section-label">Medium Neutral Creeps</h3>
+        <div>
+            <img src="~/images/icons/Nemestice_Gem_Kobold_minimap_icon.png" width="50" />
+        </div>
+    </div>
+    <p class="section-sublable text-start mb-4 text-center">
+        Usually found with a bigger variant in the same camp. Does provide a little bit more than small neutral creeps.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var neutral in Model.GetValueOrDefault("Medium", new List<Neutrals>()))
         {
             <div class="dota-neutral-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@neutral.Name</h4>
-                <div class="d-flex gap-3">
-                    <div class="neutral-image w-50">
+                <div class="d-flex gap-3 flex-lg-row flex-column">
+                    <div class="neutral-image">
                         <img src="@Url.Content(neutral.ImageSource)" alt=@neutral.Name />
                     </div>
-                    <div class="w-50">
+                    <div class="neutral-stats p-1">
                         <p class="text-md mb-0">Health: <span class="text-bolder text-sm">@neutral.Health</span></p>
                         <p class="text-md mb-0">Health Regen: <span class="text-bolder text-sm">@neutral.HealthRegen</span></p>
                         <p class="text-md mb-0">Gold Bounty: <span class="text-bolder text-sm">@neutral.Gold</span></p>
                         <p class="text-md mb-0">XP: <span class="text-bolder text-sm">@neutral.XP</span></p>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @neutral.Description
-                    </p>
-                </div>
+                <p class="my-2 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @neutral.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Large Neutral Creeps</h3>
-    <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+    <div class="d-flex align-items-center justify-content-center gap-3">
+        <h3 class="section-label">Large Neutral Creeps</h3>
+        <div>
+            <img src="~/images/icons/Nemestice_Crystal_Hellbear_minimap_icon.png" width="50" />
+        </div>
+    </div>
+    <p class="section-sublable text-start mb-4 text-center">
+       This neutral creeps have spell and will trigger if they have low health or they are fighting
+       against more than 1 opponent. Grants more exp and bounty but tougher than small and medium creeps.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var neutral in Model.GetValueOrDefault("Large", new List<Neutrals>()))
         {
             <div class="dota-neutral-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@neutral.Name</h4>
-                <div class="d-flex gap-3">
-                    <div class="neutral-image w-50">
+                <div class="d-flex gap-3 flex-lg-row flex-column">
+                    <div class="neutral-image">
                         <img src="@Url.Content(neutral.ImageSource)" alt=@neutral.Name />
                     </div>
-                    <div class="w-50">
+                    <div class="neutral-stats p-1">
                         <p class="text-md mb-0">Health: <span class="text-bolder text-sm">@neutral.Health</span></p>
                         <p class="text-md mb-0">Health Regen: <span class="text-bolder text-sm">@neutral.HealthRegen</span></p>
                         <p class="text-md mb-0">Gold Bounty: <span class="text-bolder text-sm">@neutral.Gold</span></p>
                         <p class="text-md mb-0">XP: <span class="text-bolder text-sm">@neutral.XP</span></p>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @neutral.Description
-                    </p>
-                </div>
+                <p class="my-2 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @neutral.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Ancient Neutral Creeps</h3>
-    <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+    <div class="d-flex align-items-center justify-content-center gap-3">
+        <h3 class="section-label">Ancient Neutral Creeps</h3>
+        <div>
+            <img src="~/images/icons/Nemestice_Crystal_Priest_minimap_icon.png" width="50" />
+        </div>
+    </div>
+    <p class="section-sublable text-start mb-4 text-center">
+        They are much harder to defeat but grants better exp and gold than all other neutral creeps. Have
+        a higher damaging spells that may be enough to deal significant damage to heroes.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var neutral in Model.GetValueOrDefault("Ancient", new List<Neutrals>()))
         {
             <div class="dota-neutral-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@neutral.Name</h4>
-                <div class="d-flex gap-3">
-                    <div class="neutral-image w-50">
+                <div class="d-flex gap-3 flex-lg-row flex-column">
+                    <div class="neutral-image">
                         <img src="@Url.Content(neutral.ImageSource)" alt=@neutral.Name />
                     </div>
-                    <div class="w-50">
+                    <div class="neutral-stats p-1">
                         <p class="text-md mb-0">Health: <span class="text-bolder text-sm">@neutral.Health</span></p>
                         <p class="text-md mb-0">Health Regen: <span class="text-bolder text-sm">@neutral.HealthRegen</span></p>
                         <p class="text-md mb-0">Gold Bounty: <span class="text-bolder text-sm">@neutral.Gold</span></p>
                         <p class="text-md mb-0">XP: <span class="text-bolder text-sm">@neutral.XP</span></p>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @neutral.Description
-                    </p>
-                </div>
+                <p class="my-2 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @neutral.Description
+                </p>
             </div>
         }
     </div>

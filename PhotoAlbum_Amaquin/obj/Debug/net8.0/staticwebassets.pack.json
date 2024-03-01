@@ -161,6 +161,22 @@
       "PackagePath": "staticwebassets\\images\\gaben.jpg"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gif\\confounded.gif",
+      "PackagePath": "staticwebassets\\images\\gif\\confounded.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gif\\face_palm.gif",
+      "PackagePath": "staticwebassets\\images\\gif\\face_palm.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gif\\nervous.gif",
+      "PackagePath": "staticwebassets\\images\\gif\\nervous.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\gif\\tear.gif",
+      "PackagePath": "staticwebassets\\images\\gif\\tear.gif"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\agility\\drow-hero.png",
       "PackagePath": "staticwebassets\\images\\heroes\\agility\\drow-hero.png"
     },
@@ -239,6 +255,38 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\heroes\\universal\\timbersaw-hero.jpg",
       "PackagePath": "staticwebassets\\images\\heroes\\universal\\timbersaw-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\Nemestice_Crystal_Hellbear_minimap_icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Nemestice_Crystal_Hellbear_minimap_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\Nemestice_Crystal_Kobold_minimap_icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Nemestice_Crystal_Kobold_minimap_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\Nemestice_Crystal_Priest_minimap_icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Nemestice_Crystal_Priest_minimap_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\Nemestice_Gem_Kobold_minimap_icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Nemestice_Gem_Kobold_minimap_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\banned.png",
+      "PackagePath": "staticwebassets\\images\\icons\\banned.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\cn.png",
+      "PackagePath": "staticwebassets\\images\\icons\\cn.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\ph.png",
+      "PackagePath": "staticwebassets\\images\\icons\\ph.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\icons\\ti.png",
+      "PackagePath": "staticwebassets\\images\\icons\\ti.png"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\Amaquin_INTROPROG_04671\\PhotoAlbum_Amaquin\\wwwroot\\images\\items\\armor_health\\Assault_Cuirass.png",

@@ -1,15 +1,7 @@
 ﻿@model Dictionary<string,List<Items>>
 
 <section class="hero-section items-page-hero text-white d-flex flex-column justify-content-center align-items-end">
-    <div class="px-4 py-2 w-50">
-        <h2 class="font-bold alter-font-family">
-            “DESTROY YOUR PEACEFUL LIFE
-            WITH THIS STUPID GAME.”
-        </h2>
-        <p class="color-secondary opacity-75 section-sublable">
-            - Trust me, I have spent thousands of hours and money.
-        </p>
-    </div>
+
 </section>
 
 <section class="container text-white my-5">
@@ -29,7 +21,9 @@
 <section class="container text-white my-5">
     <h3 class="section-label text-center">Laning Phase Items</h3>
     <p class="section-sublable text-start mb-4">
-       Lorem lorem lorem
+       You start with 600 gold and don't have much for a perfect item build. It is recommended to go stats and
+       start with survivability items like regen items. "Matod pa nila maayo rana sa sugod."
+       <img src="~/images/gif/face_palm.gif" alt="facepalm"/>
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var item in Model.GetValueOrDefault("Laning_Phase", new List<Items>()))
@@ -47,11 +41,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @item.Description
-                    </p>
-                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @item.Description
+                </p>
             </div>
         }
     </div>
@@ -60,7 +52,9 @@
 <section class="container text-white my-5">
     <h3 class="section-label text-center">Armor/Health Items</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Health and armor is a way to go if you want to be able to sustain a lot of damage and survive most of the damage thrown at you.
+        Recommended for carry and tank heroes that needs to longevity during intense battle. "Pag item ug armor aron di kaayo sakit kung mo biya man gani siya."
+        <img src="~/images/gif/confounded.gif" alt="cofounded"/>
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var item in Model.GetValueOrDefault("Armor_Health", new List<Items>()))
@@ -78,11 +72,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @item.Description
-                    </p>
-                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @item.Description
+                </p>
             </div>
         }
     </div>
@@ -91,7 +83,10 @@
 <section class="container text-white my-5">
     <h3 class="section-label text-center">Evasion/Invisibility Items</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Evasion helps you survive more physical attacks as some of them will not deal damage as they miss.
+        Invisibility helps you catching enemies off guard or flee safely when you are in danger. "Murag siya gud permi ga likay nimo
+        ug di sad nimo siya makita na happy pa nimo."
+        <img src="~/images/gif/tear.gif"/>
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var item in Model.GetValueOrDefault("Evasion_Invisibility", new List<Items>()))
@@ -109,11 +104,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @item.Description
-                    </p>
-                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @item.Description
+                </p>
             </div>
         }
     </div>
@@ -122,7 +115,10 @@
 <section class="container text-white my-5">
     <h3 class="section-label text-center">Resistance Items</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Resistance items help mitigate damage from different type of damage sources. It helps you
+        survive because you don't take the full amount of damage when you are being targeted. "Recommended ni nimo para
+        less ra ang yayay ba kung di na siya nimo."
+        <img src="~/images/gif/nervous.gif"/>
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var item in Model.GetValueOrDefault("Resistance", new List<Items>()))
@@ -140,11 +136,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-1">
-                    <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
-                        @item.Description
-                    </p>
-                </div>
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
+                    @item.Description
+                </p>
             </div>
         }
     </div>

@@ -1,15 +1,7 @@
 ﻿@model Dictionary<string,List<Heroes>>
 
 <section class="hero-section heroes-page-hero text-white d-flex flex-column justify-content-center align-items-end">
-    <div class="px-4 py-2 w-50">
-        <h2 class="font-bold alter-font-family">
-            “DESTROY YOUR PEACEFUL LIFE
-            WITH THIS STUPID GAME.”
-        </h2>
-        <p class="color-secondary opacity-75 section-sublable">
-            - Trust me, I have spent thousands of hours and money.
-        </p>
-    </div>
+    
 </section>
 
 <section class="container text-white my-5">
@@ -21,7 +13,7 @@
             This album showcases 20 heroes out of 100+ heroes that you can pick from the hero pool.
             Both team consist of 5 players and they can only pick heroes that are not yet picked.
             This means that in a normal game, there are only 10 unique heroes that will be played.
-            Read the description of each picture to learn more.
+            Read the description of each picture to learn more about the hero.
         </p>
     </div>
 </section>
@@ -34,16 +26,17 @@
         <h3 class="section-label">Agility Heroes</h3>
     </div>
     <p class="section-sublable text-start mb-5">
-        Agility heroes tend to be more on the carry side due to their high mobility and power scaling.
-        They can provide the team the damage output but may struggle first in the laning phase. This means
-        that these type of heroes need a strong foundation at the start to get stronger in the late game.
+        Agility heroes are the only class of heroes to gain both damage and attack speed as their 
+        primary attribute increases, they tend to have the highest physical damage output as 
+        the game progresses. This makes them scale very well with offensive items. However, they
+        struggle to have an escape mechanism and weak nukes capabilities making them weaker at the start.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var hero in Model.GetValueOrDefault("Agility", new List<Heroes>()))
         {
             <div class="dota-hero-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-lg-3 gap-1 flex-lg-row flex-column">
                     <div class="hero-image">
                         <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
                     </div>
@@ -64,7 +57,7 @@
                         <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
                     </div>
                 </div>
-                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
                     @hero.Description
                 </p>
             </div>
@@ -80,16 +73,18 @@
         <h3 class="section-label">Strength Heroes</h3>
     </div>
     <p class="section-sublable text-start mb-5">
-        Your team also needs someone to do the frontline. This is where strength heroes are preferebly
-        used for due to their nature of having more health. Most of these heroes are played as offlane
-        supporting early skirmishes and initiations.
+        Strength heroes tend to have more health and health regeneration than other 
+        heroes, making them more resilient to both physical attacks and spells. 
+        Strength heroes have a great variety in their roles, including that of 
+        carry, ganker, and support, but almost all of them have some form of strong 
+        initiation and are supposed to act as tanks to some degree.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var hero in Model.GetValueOrDefault("Strength", new List<Heroes>()))
         {
             <div class="dota-hero-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3 gap-lg-3 gap-1 flex-lg-row flex-column">
                     <div class="hero-image">
                         <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
                     </div>
@@ -110,7 +105,7 @@
                         <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
                     </div>
                 </div>
-                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
                     @hero.Description
                 </p>
             </div>
@@ -126,15 +121,17 @@
         <h3 class="section-label">Intelligence Heroes</h3>
     </div>
     <p class="section-sublable text-start mb-5">
-        Intelligence heroes mostly relies on their spells. Some of them are played as support and may
-        even be played as mid. They have extremely high spell damage output and most may lack in attack damage.
+        Intelligence heroes tend to have a greater number of active abilities compared to other heroes; all intelligence heroes have 
+        at least three active abilities, with a large number of them having all four of their abilities being actives, and some even 
+        having 5 or more. Their larger mana pools and higher mana regeneration rates go a long way to help them use these abilities 
+        frequently.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var hero in Model.GetValueOrDefault("Intelligence", new List<Heroes>()))
         {
             <div class="dota-hero-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3 gap-lg-3 gap-1 flex-lg-row flex-column">
                     <div class="hero-image">
                         <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
                     </div>
@@ -155,7 +152,7 @@
                         <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
                     </div>
                 </div>
-                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
                     @hero.Description
                 </p>
             </div>
@@ -172,15 +169,14 @@
     </div>
     <p class="section-sublable text-start mb-5">
         Universal heroes are a new addition to the game. It has a unique nature unlike the original 3 attributes.
-        They tend to have more attack damage. They are also very versatile and can be played almost any role. Exprienced
-        player will mostly use these heroes as a nuker that deal high damage output.
+        They tend to have more attack damage. They are also very versatile and can be played almost any role.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var hero in Model.GetValueOrDefault("Universal", new List<Heroes>()))
         {
             <div class="dota-hero-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@hero.Name</h4>
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3 gap-lg-3 gap-1 flex-lg-row flex-column">
                     <div class="hero-image">
                         <img src="@Url.Content(hero.ImageSource)" alt=@hero.Name />
                     </div>
@@ -201,7 +197,7 @@
                         <p class="text-end flex-grow-1 text-small-75">@Html.Raw($"+{hero.ManaRegen.ToString("F1")}")</p>
                     </div>
                 </div>
-                <p class="mb-0 px-3 py-2 bg-midnight-blue-color">
+                <p class="mb-0 px-3 py-2 bg-midnight-blue-color flex-grow-1">
                     @hero.Description
                 </p>
             </div>

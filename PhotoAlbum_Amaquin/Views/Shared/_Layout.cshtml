@@ -10,38 +10,32 @@
 </head>
 <body>
     <header>
-        <nav class="navigation-bar bg-main-color">
-            <div class="d-flex justify-content-between align-items-center">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">PhotoAlbum_Amaquin</a>
-                <!--
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+        <nav class="navbar navigation-bar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-main-color box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand hover-color-red" asp-area="" asp-controller="Home" asp-action="Index">PhotoAlbum_Amaquin</a>
+                <button class="navbar-toggler color-red" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                -->
-                <div>
-                    <ul class="d-flex justify-content-between align-items-center gap-3 mb-0 list-unstyled">
-                        <li>
-                            <a class="navigation-link" asp-area="" asp-controller="Home" asp-action="Heroes">Heroes</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link navigation-link" asp-area="" asp-controller="Home" asp-action="Heroes">Heroes</a>
                         </li>
-                        <li>
-                            <a class="navigation-link" asp-area="" asp-controller="Home" asp-action="Items">Items</a>
+                        <li class="nav-item">
+                            <a class="nav-link navigation-link" asp-area="" asp-controller="Home" asp-action="Items">Items</a>
                         </li>
-                        <li>
-                            <a class="navigation-link" asp-area="" asp-controller="Home" asp-action="Neutrals">Neutrals</a>
+                        <li class="nav-item">
+                            <a class="nav-link navigation-link" asp-area="" asp-controller="Home" asp-action="Neutrals">Neutrals</a>
                         </li>
-                        <li>
-                            <a class="navigation-link" asp-area="" asp-controller="Home" asp-action="Players">Pro Players</a>
+                        <li class="nav-item">
+                            <a class="nav-link navigation-link" asp-area="" asp-controller="Home" asp-action="Players">Players</a>
                         </li>
-                        <li>
-                            <a class="navigation-link" asp-area="" asp-controller="Home" asp-action="Cosmetics">Cosmetics</a>
+                        <li class="nav-item">
+                            <a class="nav-link navigation-link" asp-area="" asp-controller="Home" asp-action="Cosmetics">Cosmetics</a>
                         </li>
                     </ul>
                 </div>
-                <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank" class="btn text-white d-flex align-items-center btn-dota">
-                    <span>Just Don't</span>
-                    <img class="btn-icon" src="~/images/dota 2.png" alt="dota"/>
-                </a>
             </div>
         </nav>
     </header>

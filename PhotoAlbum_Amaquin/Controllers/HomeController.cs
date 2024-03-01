@@ -13,12 +13,7 @@ namespace PhotoAlbum_Amaquin.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Heroes()
+        private Dictionary<string,List<Heroes>> HeroesData()
         {
             var imageFolder = "~/images/heroes/";
 
@@ -112,7 +107,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.7f,
                     Mana=291,
                     ManaRegen=0.9f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Recommended strength carry for beginners as it doesn't have much active skill. Just stun and revive when dead."
                 },
                 new Heroes
                 {
@@ -127,7 +122,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.4f,
                     Mana=291,
                     ManaRegen=0.9f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Has high armor and health which makes it great to practice strength hero."
                 },
                 new Heroes
                 {
@@ -142,7 +137,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.5f,
                     Mana=375,
                     ManaRegen=1.2f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="This hero earns more gold when killing creeps and heroes."
                 },
                 new Heroes
                 {
@@ -157,7 +152,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=3.3f,
                     Mana=291,
                     ManaRegen=1.4f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="This hero is advanced and your team is expecting you to make great initations."
                 },
                 new Heroes
                 {
@@ -172,7 +167,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.9f,
                     Mana=267,
                     ManaRegen=0.8f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="This hero has high output damage and provides great disable spells to set up kills."
                 },
                 new Heroes
                 {
@@ -187,7 +182,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.0f,
                     Mana=291,
                     ManaRegen=1.4f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Great support as it provides stun and mana regen for team."
                 },
                 new Heroes
                 {
@@ -202,7 +197,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.4f,
                     Mana=315,
                     ManaRegen=1.0f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Easily makes setup for your team to pickoff enemy heroes."
                 },
                 new Heroes
                 {
@@ -217,7 +212,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.8f,
                     Mana=387,
                     ManaRegen=1.3f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Provides slow and damage that will slowly lower your enemies health points."
                 },
                 new Heroes
                 {
@@ -232,7 +227,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.2f,
                     Mana=351,
                     ManaRegen=1.6f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Requires intensive training as this hero is tricky but hard to catch when played right."
                 },
                 new Heroes
                 {
@@ -247,7 +242,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.2f,
                     Mana=435,
                     ManaRegen=2.2f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Insane nukes that provide your team the damage output. Hard to master as it heavly relies with active spells and items."
                 },
                 new Heroes
                 {
@@ -262,7 +257,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.2f,
                     Mana=339,
                     ManaRegen=1.5f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Setup kills with arrow that stuns your opponents. The longer the distance of arrow to the enemy, the longer the stun duration."
                 },
                 new Heroes
                 {
@@ -277,7 +272,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.1f,
                     Mana=375,
                     ManaRegen=1.5f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Keep your team alive with your healing spell and be a menace to your opponents as it will make them lose their resources."
                 },
                 new Heroes
                 {
@@ -292,7 +287,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=3.0f,
                     Mana=351,
                     ManaRegen=1.6f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Tanky and provides high damage output. Not for beginners as it needs your spell to be precise."
                 },
                 new Heroes
                 {
@@ -307,7 +302,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.4f,
                     Mana=303,
                     ManaRegen=0.9f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="This hero has 3 spells that you can combine to create a spell out of that combination. Hard to master as it needs you to memorize all spell and fast reaction time."
                 },
                 new Heroes
                 {
@@ -322,20 +317,20 @@ namespace PhotoAlbum_Amaquin.Controllers
                     HealthRegen=2.5f,
                     Mana=303,
                     ManaRegen=1.5f,
-                    Description="Did I say that you can only play one hero in a match? Well, not with this hero (not exactly). You will control up to 5 instances of this hero. Sounds cool but every meepo will die if one of them die. Extremely difficult to master."
+                    Description="Bring an army of creeps with spells. Hard to learn since you also control a lot of creeps that you might be lose track of your hero."
                 },
 
             };
 
             var groupedHeroes = heroesList.GroupBy(item => item.Attribute).ToDictionary(
-                group => group.Key, 
+                group => group.Key,
                 group => group.ToList()
-            ); 
+            );
 
-            return View(groupedHeroes);
+            return groupedHeroes;
         }
 
-        public IActionResult Items()
+        private Dictionary<string, List<Items>> ItemsData()
         {
             var imageFolder = "~/images/items/";
 
@@ -372,7 +367,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     GoldCost=50,
                     Description="Regenerates 6 mana per second for 25 seconds.",
                     Group="Laning_Phase"
-                },    
+                },
                 new Items
                 {
                     Name="Magic Stick",
@@ -501,7 +496,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     Description="+16% Status Resistance. Sange is an unusually accurate weapon, seeking weak points automatically.",
                     Group="Resistance"
                 },
-                
+
             };
 
             var groupedItems = itemList.GroupBy(item => item.Group).ToDictionary(
@@ -509,10 +504,10 @@ namespace PhotoAlbum_Amaquin.Controllers
                 group => group.ToList()
             );
 
-            return View(groupedItems);
+            return groupedItems;
         }
 
-        public IActionResult Neutrals()
+        private Dictionary<string, List<Neutrals>> NeutralsData()
         {
             var imageFolder = "~/images/neutrals/";
 
@@ -744,10 +739,10 @@ namespace PhotoAlbum_Amaquin.Controllers
                 group => group.ToList()
             );
 
-            return View(groupedNeutral);
+            return groupedNeutral;
         }
 
-        public IActionResult Players()
+        private Dictionary<string, List<Players>> PlayersData()
         {
             var imageFolder = "~/images/players/";
 
@@ -960,10 +955,10 @@ namespace PhotoAlbum_Amaquin.Controllers
                 group => group.ToList()
             );
 
-            return View(groupedPlayers);
+            return groupedPlayers;
         }
 
-        public IActionResult Cosmetics()
+        private Dictionary<string, List<Cosmetics>> CosmeticsData()
         {
             var imageFolder = "~/images/cosmetics/";
 
@@ -986,7 +981,7 @@ namespace PhotoAlbum_Amaquin.Controllers
                     Date="as of Feb. 28, 2024",
                     Description="An instrument of keen-edged trauma, the Axe of Phractos embodies power over grace. Newly forged by the steelworks of Ulmarain, searing heat still shimmers across its facets--a cauterisation in waiting.",
                     Group="Expensive"
-                },           
+                },
                 new Cosmetics
                 {
                     Name="Golden Silent Wake",
@@ -1156,7 +1151,47 @@ namespace PhotoAlbum_Amaquin.Controllers
                 group => group.ToList()
             );
 
-            return View(groupedCosmetics);
+            return groupedCosmetics;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Heroes()
+        {
+
+            var heroes = HeroesData();
+            return View(heroes);
+        }
+
+        public IActionResult Items()
+        {
+            var items = ItemsData();
+
+            return View(items);
+        }
+
+        public IActionResult Neutrals()
+        {
+            var neutrals = NeutralsData();
+
+            return View(neutrals);
+        }
+
+        public IActionResult Players()
+        {
+            var players = PlayersData();
+
+            return View(players);
+        }
+
+        public IActionResult Cosmetics()
+        {
+            var cosmetics = CosmeticsData();
+
+            return View(cosmetics);
         }
 
         public IActionResult Privacy()

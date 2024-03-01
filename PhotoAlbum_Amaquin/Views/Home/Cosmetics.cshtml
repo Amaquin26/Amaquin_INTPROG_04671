@@ -1,128 +1,126 @@
 ﻿@model Dictionary<string,List<Cosmetics>>
 
 <section class="hero-section cosmetics-page-hero text-white d-flex flex-column justify-content-center align-items-end">
-    <div class="px-4 py-2 w-50">
-        <h2 class="font-bold alter-font-family">
-            “DESTROY YOUR PEACEFUL LIFE
-            WITH THIS STUPID GAME.”
-        </h2>
-        <p class="color-secondary opacity-75 section-sublable">
-            - Trust me, I have spent thousands of hours and money.
+
+</section>
+
+<section class="container text-white my-5">
+    <div class="text-center mb-4">
+        <h3 class="section-label">
+            Welcome to Cosmetics Album
+        </h3>
+        <p class="section-sublable text-start">
+            Most video games have micro transaction and these are skins or cosmetics. Some are cheap and some are
+            unreasonably expensive. In DOTA 2, buying skins or cosmetics does win games unlike games
+            that are Pay to Win. DOTA 2 does not care if you have the best skin. You can still lose your sanity
+            and also your hard earned money.
         </p>
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Expensive Cosmetics</h3>
+    <h3 class="section-label text-center color-expensive">Expensive Cosmetics</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        DOTA 2 is also known for its expensive in-game cosmetics or skins which could go up to
+        $2000. You might think who would spend that much money but you would be wrong if you visit the
+        virtual market place.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach(var cosmetic in Model.GetValueOrDefault("Expensive", new List<Cosmetics>()))
         {
             <div class="dota-cosmetic-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@cosmetic.Name</h4>
-                <div>
-                    <div class="cosmetic-image">
-                        <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
-                    </div>
-                    <div class="px-2">
-                        <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
-                        <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
-                    </div>
-                    <div class="p-1 mt-2">
-                        <p class="my-0 px-3 py-2 bg-midnight-blue-color">
-                            @cosmetic.Description
-                        </p>
-                    </div>
+                <div class="cosmetic-image">
+                    <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
                 </div>
+                <div class="px-2">
+                    <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
+                    <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
+                </div>
+                <p class="my-0 px-3 py-2 bg-midnight-blue-color mt-2 flex-grow-1">
+                    @cosmetic.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Aracanas</h3>
+    <h3 class="section-label text-center color-arcana">Aracanas</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Arcana is the rarest item in terms of hierarchy but not the most expensive. These are 
+        special cosmetics or skins that would make hero have a different special effects on their spells.
+        It also changes it appearance that it might look like a new hero in the game.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var cosmetic in Model.GetValueOrDefault("Arcana", new List<Cosmetics>()))
         {
             <div class="dota-cosmetic-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@cosmetic.Name</h4>
-                <div>
-                    <div class="cosmetic-image">
-                        <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
-                    </div>
-                    <div class="px-2">
-                        <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
-                        <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
-                    </div>
-                    <div class="p-1 mt-2">
-                        <p class="my-0 px-3 py-2 bg-midnight-blue-color">
-                            @cosmetic.Description
-                        </p>
-                    </div>
+                <div class="cosmetic-image">
+                    <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
                 </div>
+                <div class="px-2">
+                    <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
+                    <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
+                </div>
+                <p class="my-0 px-3 py-2 bg-midnight-blue-color mt-2 flex-grow-1">
+                    @cosmetic.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Personas</h3>
+    <h3 class="section-label text-center color-persona">Personas</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Personas are alternative skin for a hero. They seems to have a different personality but they 
+        have the same spells and stats. These can only be obtained through buying battle pass which
+        may cost more because levels can be bought for around $10 for a few levels.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var cosmetic in Model.GetValueOrDefault("Persona", new List<Cosmetics>()))
         {
             <div class="dota-cosmetic-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@cosmetic.Name</h4>
-                <div>
-                    <div class="cosmetic-image">
-                        <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
-                    </div>
-                    <div class="px-2">
-                        <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
-                        <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
-                    </div>
-                    <div class="p-1 mt-2">
-                        <p class="my-0 px-3 py-2 bg-midnight-blue-color">
-                            @cosmetic.Description
-                        </p>
-                    </div>
+                <div class="cosmetic-image">
+                    <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
                 </div>
+                <div class="px-2">
+                    <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
+                    <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
+                </div>
+                <p class="my-0 px-3 py-2 bg-midnight-blue-color mt-2 flex-grow-1">
+                    @cosmetic.Description
+                </p>
             </div>
         }
     </div>
 </section>
 
 <section class="container text-white my-5">
-    <h3 class="section-label text-center">Immortals</h3>
+    <h3 class="section-label text-center color-immortal">Immortals</h3>
     <p class="section-sublable text-start mb-4">
-        Lorem lorem lorem
+        Most immortals are cheap which average players are usually buying. They look nice and makes the hero
+        much cooler with their new special effects in spell. They might be cheap but if you keep buying them
+        you may not notice that you have spent more than $100.
     </p>
     <div class="d-flex flex-wrap align-items-center justify-content-evenly gap-3">
         @foreach (var cosmetic in Model.GetValueOrDefault("Immortal", new List<Cosmetics>()))
         {
             <div class="dota-cosmetic-card">
                 <h4 class="mb-3 text-center text-bolder text-lg">@cosmetic.Name</h4>
-                <div>
-                    <div class="cosmetic-image">
-                        <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
-                    </div>
-                    <div class="px-2">
-                        <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
-                        <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
-                    </div>
-                    <div class="p-1 mt-2">
-                        <p class="my-0 px-3 py-2 bg-midnight-blue-color">
-                            @cosmetic.Description
-                        </p>
-                    </div>
+                <div class="cosmetic-image">
+                    <img src="@Url.Content(cosmetic.ImageSource)" alt=@cosmetic.Name />
                 </div>
+                <div class="px-2">
+                    <p class="text-md mb-0">Price: <span class="text-bolder text-sm">@cosmetic.Cost</span></p>
+                    <p class="text-md mb-0">Date: <span class="text-bolder text-sm">@cosmetic.Date</span></p>
+                </div>
+                <p class="my-0 px-3 py-2 bg-midnight-blue-color mt-2 flex-grow-1">
+                    @cosmetic.Description
+                </p>
             </div>
         }
     </div>
